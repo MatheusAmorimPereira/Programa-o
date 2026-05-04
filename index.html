@@ -1,0 +1,203 @@
+<!doctype html>
+  <html lang="pt-br">
+        <head>
+          <meta charset="UTF-8" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+          />
+          <meta
+            name="description"
+            content="Programação na Paz - Soluções Digitais com Matheus Amorim Pereira. Desenvolvimento de sites e apps."
+          />
+          <title>Programação na Paz | Matheus Amorim</title>
+
+          <!-- Google Fonts & Font Awesome -->
+          <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+            rel="stylesheet"
+          />
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          />
+          <link rel="stylesheet" href="style.css" />
+          <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+        </head>
+        <body>
+          <header id="header">
+            <div class="container nav-container">
+              <a href="#home" class="brand">
+                <img src="logo.jpeg" alt="Logo" class="logo-mini" />
+                <span>Programação na Paz</span>
+              </a>
+              <nav id="nav-menu">
+                <a href="#home">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#contato">Contato</a>
+              </nav>
+              <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+              </div>
+            </div>
+          </header>
+
+          <section class="hero" id="home">
+            <div class="container hero-grid">
+              <div class="hero-text">
+                <span class="badge">Disponível para novos projetos</span>
+                <h1>
+                  Transforme sua ideia em <strong>código de elite.</strong>
+                </h1>
+                <p>
+                  Desenvolvimento de alta performance para quem busca resultados
+                  reais. Sites, apps e sistemas sob medida com foco em
+                  conversão.
+                </p>
+                <div class="cta-group">
+                  <a href="https://wa.me/5511937274243" class="btn primary"
+                    >Bora Conversar <i class="fab fa-whatsapp"></i
+                  ></a>
+                  <a href="#servicos" class="btn outline">Ver Serviços</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="sobre">
+            <div class="container sobre-grid">
+              <div class="sobre-img-container">
+                <img
+                  src="https://images.unsplash.com/photo-1555066931-4365d14bab8c"
+                  alt="Workspace Matheus"
+                />
+                <div class="exp-badge">Matheus Amorim</div>
+              </div>
+              <div class="sobre-content">
+                <h2 class="section-title">Programação na Paz</h2>
+                <p>
+                  Sou o <strong>Matheus Amorim Pereira</strong>, desenvolvedor
+                  focado em tecnologia moderna. Localizado em São Paulo, ajudo
+                  negócios a escalarem sua presença digital com segurança,
+                  design premium e performance impecável.
+                </p>
+                <br />
+                <p>
+                  Aos 17 anos, transformo complexidade em paz para o cliente,
+                  entregando sistemas que realmente funcionam.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section id="servicos" class="bg-light">
+            <div class="container">
+              <h2 class="section-title center">Soluções que entregamos</h2>
+              <div class="services-grid">
+                <div class="service-card">
+                  <i class="fas fa-laptop-code"></i>
+                  <h3>Websites & LPs</h3>
+                  <p>
+                    Sites institucionais e Landing Pages de alta conversão,
+                    totalmente responsivos.
+                  </p>
+                </div>
+                <div class="service-card">
+                  <i class="fas fa-mobile-screen-button"></i>
+                  <h3>Apps Mobile</h3>
+                  <p>
+                    Aplicativos modernos para Android e iOS focados na
+                    experiência do usuário.
+                  </p>
+                </div>
+                <div class="service-card">
+                  <i class="fas fa-gears"></i>
+                  <h3>Sistemas Web</h3>
+                  <p>
+                    Gestão de dados, dashboards e automação de processos
+                    internos para empresas.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="contato" class="container">
+            <div class="contato-box">
+              <div class="contato-info">
+                <h2>Bora fechar projeto?</h2>
+                <p>
+                  Mande uma mensagem agora e vamos tirar sua ideia do papel.
+                </p>
+                <br />
+                <div class="info-item">
+                  <i class="fas fa-envelope"></i>
+                  matheussamorinpereira@gmail.com
+                </div>
+                <div class="info-item">
+                  <i class="fab fa-whatsapp"></i> 11 93727-4243
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-location-dot"></i> São Paulo - SP
+                </div>
+              </div>
+
+              <form
+                action="https://formspree.io/f/mdabejlz"
+                method="POST"
+                id="contact-form"
+                class="main-form"
+              >
+                <input
+                  type="text"
+                  name="nome"
+                  placeholder="Seu Nome"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Seu E-mail"
+                  required
+                />
+                <textarea
+                  name="mensagem"
+                  placeholder="Fale um pouco sobre o que você precisa..."
+                  rows="4"
+                  required
+                ></textarea>
+
+                <!-- Anti-spam -->
+                <input type="text" name="_gotcha" style="display: none" />
+
+                <button type="submit" class="btn primary full" id="submit-btn">
+                  Enviar para Matheus
+                </button>
+              </form>
+            </div>
+          </section>
+
+          <footer>
+            <div class="container">
+              <p>
+                &copy; 2026 Programação na Paz. Criado por Matheus Amorim
+                Pereira.
+              </p>
+            </div>
+          </footer>
+
+          <a
+            href="https://wa.me/5511937274243"
+            class="float-wa"
+            target="_blank"
+          >
+            <i class="fab fa-whatsapp"></i>
+          </a>
+
+          <script src="script.js"></script>
+        </body>
+      </html>
+    </form>
+  </form>
+</head>
